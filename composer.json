@@ -1,0 +1,20 @@
+{
+    "name": "luan/module-street-lines",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Luan Carlos Schmitz",
+            "email": "luan_c_schmitz@outlook.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Luan\\StreetLines\\": ""
+        }
+    },
+    "minimum-stability": "stable"
+}
